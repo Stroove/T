@@ -1,0 +1,2 @@
+.dialogs{grid-area:c;background-color:#deb887;width:100%}.dialogs__addMessage{cursor:pointer}.dialogs__item{padding:10px;font-size:16px;color:#000}.dialogs__items{display:-ms-grid;display:grid;-ms-grid-columns:2fr 10fr;grid-template-columns:2fr 10fr}.dialogs__chat,.dialogs__name{text-decoration:none;font-size:16px;color:#000}
+/*# sourceMappingURL=2.62a3ff7d.chunk.css.map */
