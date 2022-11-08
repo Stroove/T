@@ -1,0 +1,16 @@
+.wrapper{
+    margin: auto;
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(185px, 1fr));
+    grid-template-areas: 
+    'h h h h h h'
+    'n n ch ch ch ch '
+    ;
+    gap: 10px;
+}
+.changeLand{
+    grid-area: ch;
+    width: 100%;
+    min-width: 100%;
+}

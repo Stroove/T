@@ -1,0 +1,28 @@
+.users__user{
+    text-align: center;
+    max-width: 600px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(110, 175, 11);
+    border-radius: 30px;
+    height: 100%;
+    padding: 20px;
+    margin: 20px 0 0 0;
+    color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    border: 3px solid green;
+}
+.users__followed{
+    cursor: pointer;
+
+}
+.users__left {
+    min-width: 100px;
+}
+.users__avatarImg{
+    height: 70px;
+    width: 60px;
+    border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+.dialogs{
+    grid-area:c; 
+    background-color: burlywood;
+    width: 100%;
+}
+.dialogs__item{
+    padding: 10px;
+    font-size: 16px;
+    color:black;
+}
+.dialogs__items{
+    display:grid;
+    grid-template-columns: 2fr 10fr;
+}

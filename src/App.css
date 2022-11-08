@@ -1,0 +1,21 @@
+.wrapper {
+  margin: auto;
+  max-width: 1110px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(185px, 1fr) 10px minmax(185px, 1fr) 10px minmax(185px, 1fr) 10px minmax(185px, 1fr) 10px minmax(185px, 1fr) 10px minmax(185px, 1fr);
+  grid-template-columns: repeat(6, minmax(185px, 1fr));
+  -ms-grid-rows: auto 10px auto;
+      grid-template-areas: "h h h h h h" "n n ch ch ch ch ";
+  gap: 10px;
+}
+
+.changeLand {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 7;
+  grid-area: ch;
+  width: 100%;
+  min-width: 100%;
+  position: relative;
+}

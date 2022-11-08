@@ -1,0 +1,20 @@
+.dialogs {
+  grid-area: c;
+  background-color: burlywood;
+  width: 100%;
+}
+.dialogs__addMessage{
+  cursor: pointer;
+}
+.dialogs__item {
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.dialogs__items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 10fr;
+  grid-template-columns: 2fr 10fr;
+}

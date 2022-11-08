@@ -1,0 +1,27 @@
+.header{
+    grid-area: h;
+    &__items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aqua;
+        border-radius: 40px;
+        height: 56px;
+
+    }
+    &__logo{
+        padding: 0 10px;
+    }
+    &__menu{
+
+    }   
+    &__letter{
+        padding: 0 10px;
+        color: white;
+    }
+}
+.container{
+    max-width:1100px;
+    margin: 0 auto;
+}

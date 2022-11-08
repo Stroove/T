@@ -1,0 +1,10 @@
+.error{
+    border: red 1px solid;
+}
+.hasError{
+    display: block;
+    color: red;
+}
+.noError{
+    display: none;
+}

@@ -1,0 +1,16 @@
+.navBar{
+    grid-area: n;
+    &__items{
+        background-color: bisque;
+        padding: 10px 20px;
+    }
+}
+.navBar{
+    &__letter{
+        font-size: 20px;
+    }
+    &__a{
+        text-decoration: none;
+        color: black;
+    }
+}
